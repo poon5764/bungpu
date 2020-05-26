@@ -166,11 +166,13 @@ namespace project
             int b = int.Parse(numericUpDown7.Text);
             int c = int.Parse(numericUpDown4.Text);
             int d = int.Parse(numericUpDown5.Text);
-            int g = int.Parse(numericUpDown1.Text);
-            int f = int.Parse(numericUpDown2.Text);
+            int f = int.Parse(numericUpDown1.Text);
+            int g = int.Parse(numericUpDown2.Text);
+            int h = int.Parse(numericUpDown3.Text);
+            int i = int.Parse(numericUpDown8.Text);
             int x;
             int y;
-            x = b + c + d + g + f;
+            x = b + c + d + f + g + h + i;
             textBox7.Text = x.ToString();
             y = a - x;
             textBox5.Text = y.ToString();

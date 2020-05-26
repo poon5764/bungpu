@@ -66,7 +66,7 @@ namespace project
         {
             int a = int.Parse(textBox7.Text);
             int b = int.Parse(numericUpDown3.Text); 
-            int c = int.Parse(numericUpDown1.Text);
+            int c = int.Parse(textBox1.Text);
             int d = int.Parse(numericUpDown2.Text); 
             int t = int.Parse(numericUpDown4.Text); 
             int f = int.Parse(numericUpDown5.Text);
@@ -78,7 +78,7 @@ namespace project
             int r = 0;
             int p;
             int k;
-            if (radioButton14.Checked)
+            if (radioButton3.Checked)
             {
                 x = 60000;
             }
